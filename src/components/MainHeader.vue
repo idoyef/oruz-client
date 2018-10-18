@@ -12,9 +12,7 @@
 <script>
 export default {
   name: 'MainHeader',
-  props: {
-    
-  }
+  props: {}
 }
 </script>
 
@@ -23,13 +21,13 @@ export default {
         position: fixed;
         width: 100%;
         height: 80px;
-        background-color: white;       
+        background-color: white;
     }
-    
+
     .main-app-logo {
         float: left;
         padding: 12px;
-        padding-left: 120px;        
+        padding-left: 120px;
         height: 55px;
         width: 140px;
         cursor: pointer;
@@ -48,19 +46,19 @@ export default {
         cursor: pointer;
     }
 
-    .login-button{      
+    .login-button{
         background-color: #C5B358;
-        color: white;       
+        color: white;
     }
 
-    .join-in-button {              
+    .join-in-button {
         margin-left: 20px;
         color: #C5B358;
         background-color: white;
         border: #C5B358 1px solid;
     }
 
-    .join-in-button:hover {       
+    .join-in-button:hover {
          background-color: #C5B358;
          color: white;
          transition: 1s;
