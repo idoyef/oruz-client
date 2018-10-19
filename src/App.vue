@@ -1,22 +1,19 @@
 <template>
   <div id="app">
     <MainHeader/>
-    <div style="height: 1000px; background-color: #ededed;">
-      dgdsfgdfgdgdfgdfgdfgdfgd <br><br>
-      saadsasadas  
-    </div>    
+    <MainContainer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
 import MainHeader from './components/MainHeader.vue';
+import MainContainer from './components/MainContainer.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
-    MainHeader
+    MainHeader,
+    MainContainer
   }
 }
 </script>
@@ -33,5 +30,8 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;   
+  }
+  button:focus {
+    outline:0;
   }
 </style>

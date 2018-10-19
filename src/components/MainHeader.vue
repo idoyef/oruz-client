@@ -22,6 +22,8 @@ export default {
         width: 100%;
         height: 80px;
         background-color: white;
+        border-bottom: 1px solid lightgrey;
+        z-index: 2;
     }
 
     .main-app-logo {
