@@ -15,9 +15,8 @@ export default {
     .main-side-bar-container{
         float: left;
         width: 20%;
-        height: 700px;
-        background-color: white;
+        height: 100%;
+        /* background-color: rgb(15, 155, 85); */
         border-right: 1px solid lightgrey;
     }
-  
 </style>

@@ -1,0 +1,34 @@
+{
+    "necklace": {
+        "blueNecklace": "/assets/blueNecklace.png",
+        "redNecklace": "../assets/redNecklace.png",
+        "greenNecklace": "../assets/greenNecklace.png",
+        "goldNecklace": "../assets/goldNecklace.png",
+        "silverNecklace": "/assets/silverNecklace.png",
+        "blackNecklace": "../assets/blackNecklace.png"
+    },
+    
+    "beads": {
+        "round": {
+            "blueBead": "",
+            "redBead": "",
+            "greenBead": "",
+            "yellowBead": "",
+            "blackBead": ""
+        },
+        "spuare": {
+            "blueBead": "",
+            "redBead": "",
+            "greenBead": "",
+            "yellowBead": "",
+            "blackBead": ""
+        },
+        "triangle": {
+            "blueBead": "",
+            "redBead": "",
+            "greenBead": "",
+            "yellowBead": "",
+            "blackBead": ""
+        }
+    }
+}
